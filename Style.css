@@ -1,0 +1,296 @@
+body {
+    background: #FF6347;
+    text-align: center;
+    line-height: 36px;
+}
+
+
+h1 {
+  font-family: "Gill Sans";
+  font-size: 84px;
+}
+
+h2 {
+  font-family: "Gill Sans";
+  font-size: 48px;
+  padding: 40px 0px 10px 0px;
+}
+
+h4 {
+  font-family: "Gill Sans";
+  font-size: 24px;
+  text-align: left;
+  padding: 20px 200px 0px 200px;
+}
+
+h5 {
+  font-family: "Gill Sans";
+  font-size: 18px;
+  text-align: left;
+  padding: 20px 200px 0px 200px;
+}
+
+h6 {
+  font-family: "Gill Sans";
+  font-size: 12px;
+  color: white;
+  padding: 40px 0px 0px 0px;
+}
+
+p {
+  font-size: 16px;
+  font-family: Garamond;
+  font-weight: bold;
+  color: #ac9d9a;
+  text-align:right;
+  padding: 0px 190px 0px 200px;
+}
+
+a {
+    font-family: "Gill Sans";
+    color: #F08080;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a:hover {
+    font-family: "Gill Sans";
+    color: #dc143c;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+table {
+  border-collapse: collapse;
+  height: 36px;
+  width: 98%;
+}
+
+tr {
+  text-align:center;
+}
+
+th,
+.label {
+  border: 1px solid #F08080;
+  border-collapse: collapse;
+  color: white;
+  background-color: #000000;
+  width: 14%;
+  font-family: "Gill Sans";
+}
+
+td{
+  border: 1px solid #F08080;
+  border-collapse: collapse;
+  width: 14%;
+}
+
+ul {
+  list-style-type: square;
+  color: white;
+  margin: none;
+  padding: none;
+}
+
+li {
+  text-align: left;
+  text-decoration: none;
+}
+
+
+/* Index Page */
+
+
+.welcome h4 {
+  color: white;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.index a {
+  color: black;
+  background-color: #FF6347;
+  border: 2px dotted #e62200;
+  border-radius: 15px;
+  width: 20%;
+  padding: 10px 20px;
+  margin: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.index a:hover {
+  color: #ffe9e6;
+  background-color:#ff5233;
+  border: 3px dotted #ffd4cc;
+}
+
+.index a:active {
+  color: black;
+  background-color: #FF6347;
+  border: 2px dotted #e62200;
+}
+
+
+.index img {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.profile h5 {
+  font-family: "Gill Sans";
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 0px;
+}
+
+.note-link a {
+  float: right;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6347;
+  border: 1px solid #e62200;
+  border-radius: 10px;
+  width: 15%;
+  padding: 5px 15px;
+  margin: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.note-link a:hover {
+  color: #ffe9e6;
+  background-color:#ff5233;
+  border: 2px solid #ffd4cc;
+}
+
+.note-link a:active {
+  color: black;
+  background-color: #FF6347;
+  border: 1px solid #e62200;
+}
+
+
+
+.Sascha {
+  background-image: url("Sascha.png");
+}
+
+
+/* Notes Page */
+
+.navigation {
+  position: fixed;
+  right: -205px;
+  bottom: 50px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.navigation a {
+  color: #ffe9e6;
+  font-size: 12px;
+}
+
+.navigation a:hover {
+  color: white;
+  font-size: 13px;
+}
+
+
+.nav-index a {
+  color: white;
+  background-color: #FF6347;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 15%;
+  padding: 10px 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.nav-index a:hover {
+  color: #ffe9e6;
+  background-color:#e62200;
+  border: 2px solid #ffd4cc;
+}
+
+
+.expressions,
+.scenarios {
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  width: 60%;
+  padding: 20px 20px 40px 20px;
+}
+
+.angaben-index,
+.party-index {
+  margin: auto;
+}
+
+/* Word Page */
+
+.word-index a {
+  margin: auto;
+  color: white;
+  background-color: #FF6347;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 15%;
+  padding: 10px 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.word-index a:hover {
+  color: #ffe9e6;
+  background-color:#e62200;
+  border: 2px solid #ffd4cc;
+}
+
+.verb,
+.noun {
+  margin-left: 300px;
+  background-color: white;
+  border-radius: 15px;
+  width: 60%;
+  padding: 20px 20px 40px 20px;
+}
+
+/* Word Page - Noun Section */
+
+.plural {
+  color: dimgray;
+  background-color:	#ffbeb3;
+  font-weight: bold;
+}
+
+/*
+.verb-index {
+  float:left;
+  position: fixed;
+}
+
+.verb-index a {
+  color:white;
+}
+*/
+
+
+
+
+a.back {
+  color: white;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
