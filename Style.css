@@ -13,28 +13,29 @@ h1 {
 h2 {
   font-family: "Gill Sans";
   font-size: 48px;
-  padding: 40px 0px 10px 0px;
+  text-align:left;
+  padding: 40px 0px 10px 100px;
 }
 
 h4 {
   font-family: "Gill Sans";
   font-size: 24px;
   text-align: left;
-  padding: 20px 200px 0px 200px;
+  padding: 2% 30% 0 15%;
 }
 
 h5 {
   font-family: "Gill Sans";
   font-size: 18px;
   text-align: left;
-  padding: 20px 200px 0px 200px;
+  padding: 2% 30% 0 15%;
 }
 
 h6 {
   font-family: "Gill Sans";
   font-size: 12px;
   color: white;
-  padding: 40px 0px 0px 0px;
+  padding-top: 2%;
 }
 
 p {
@@ -43,8 +44,9 @@ p {
   font-weight: bold;
   color: #ac9d9a;
   text-align:right;
-  padding: 0px 190px 0px 200px;
+  padding: 0 15% 0 30%;
 }
+
 
 a {
     font-family: "Gill Sans";
@@ -62,10 +64,135 @@ a:hover {
 }
 
 
+
+
+/* Index Page */
+
+img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.welcome h4 {
+  color: white;
+  padding-top: 1%;
+  padding-left: 6%;
+}
+
+.index a {
+  color: black;
+  background-color: #FF6347;
+  border: 2px dotted #e62200;
+  border-radius: 15px;
+  width: 20%;
+  padding: 1%;
+  margin: 0 3%;
+  display: inline-block;
+}
+
+.index a:hover {
+  color: #ffe9e6;
+  background-color:#ff5233;
+  border: 3px dotted #ffd4cc;
+}
+
+.index a:active {
+  color: black;
+  background-color: #FF6347;
+  border: 2px dotted #e62200;
+}
+
+
+.profile h5 {
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+}
+
+#note-link {
+  float:right;
+  margin-right: 2%;
+}
+
+
+.Sascha {
+  background-image: url("Sascha.png");
+}
+
+
+
+/* Notes Page */
+
+.section {
+  width: 100%;
+}
+
+#Title,
+#Expressions {
+  clear: left;
+}
+
+.navigation {
+  float:right;
+  position:fixed;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  right:0;
+  bottom:10%;
+}
+
+.navigation a {
+  color: #ffe9e6;
+  font-size: 12px;
+}
+
+.navigation a:hover {
+  color: white;
+  font-size: 13px;
+}
+
+.nav-index a {
+  color: white;
+  background-color: #FF6347;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 15%;
+  padding: 0.8% 1.2%;
+  margin-left: 1.6%;
+  margin-right: 1.6%;
+  display: inline-block;
+}
+
+.nav-index a:hover {
+  color: #ffe9e6;
+  background-color:#e62200;
+  border: 2px solid #ffd4cc;
+}
+
+
+.expressions,
+.scenarios {
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 30%;
+  width: 50%;
+  padding: 2% 2% 4% 2%;
+}
+
+
+/* Word Page */
+
+
 table {
   border-collapse: collapse;
   height: 36px;
   width: 98%;
+  margin-left: 24%;
+  width: 60%;
+  background-color: white;
+  border-radius: 15px;
 }
 
 tr {
@@ -88,209 +215,9 @@ td{
   width: 14%;
 }
 
-ul {
-  list-style-type: square;
-  color: white;
-  margin: none;
-  padding: none;
-}
-
-li {
-  text-align: left;
-  text-decoration: none;
-}
-
-
-/* Index Page */
-
-
-.welcome h4 {
-  color: white;
-  padding-top: 20px;
-  padding-left: 80px;
-}
-
-.index a {
-  color: black;
-  background-color: #FF6347;
-  border: 2px dotted #e62200;
-  border-radius: 15px;
-  width: 20%;
-  padding: 10px 20px;
-  margin: auto;
-  margin-left: 40px;
-  margin-right: 40px;
-  display: inline-block;
-}
-
-.index a:hover {
-  color: #ffe9e6;
-  background-color:#ff5233;
-  border: 3px dotted #ffd4cc;
-}
-
-.index a:active {
-  color: black;
-  background-color: #FF6347;
-  border: 2px dotted #e62200;
-}
-
-
-.index img {
-  margin: auto;
-  padding-top: 20px;
-}
-
-.profile h5 {
-  font-family: "Gill Sans";
-  font-size: 20px;
-  text-align: center;
-  display: inline-block;
-  padding: 0px;
-}
-
-.note-link a {
-  float: right;
-  font-weight: bold;
-  color: white;
-  background-color: #FF6347;
-  border: 1px solid #e62200;
-  border-radius: 10px;
-  width: 15%;
-  padding: 5px 15px;
-  margin: auto;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.note-link a:hover {
-  color: #ffe9e6;
-  background-color:#ff5233;
-  border: 2px solid #ffd4cc;
-}
-
-.note-link a:active {
-  color: black;
-  background-color: #FF6347;
-  border: 1px solid #e62200;
-}
-
-
-
-.Sascha {
-  background-image: url("Sascha.png");
-}
-
-
-/* Notes Page */
-
-.navigation {
-  position: fixed;
-  right: -205px;
-  bottom: 50px;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-}
-
-.navigation a {
-  color: #ffe9e6;
-  font-size: 12px;
-}
-
-.navigation a:hover {
-  color: white;
-  font-size: 13px;
-}
-
-
-.nav-index a {
-  color: white;
-  background-color: #FF6347;
-  border: 1px solid white;
-  border-radius: 15px;
-  width: 15%;
-  padding: 10px 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  display: inline-block;
-}
-
-.nav-index a:hover {
-  color: #ffe9e6;
-  background-color:#e62200;
-  border: 2px solid #ffd4cc;
-}
-
-
-.expressions,
-.scenarios {
-  margin: auto;
-  background-color: white;
-  border-radius: 15px;
-  width: 60%;
-  padding: 20px 20px 40px 20px;
-}
-
-.angaben-index,
-.party-index {
-  margin: auto;
-}
-
-/* Word Page */
-
-.word-index a {
-  margin: auto;
-  color: white;
-  background-color: #FF6347;
-  border: 1px solid white;
-  border-radius: 15px;
-  width: 15%;
-  padding: 10px 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.word-index a:hover {
-  color: #ffe9e6;
-  background-color:#e62200;
-  border: 2px solid #ffd4cc;
-}
-
-.verb,
-.noun {
-  margin-left: 300px;
-  background-color: white;
-  border-radius: 15px;
-  width: 60%;
-  padding: 20px 20px 40px 20px;
-}
-
-/* Word Page - Noun Section */
 
 .plural {
   color: dimgray;
   background-color:	#ffbeb3;
   font-weight: bold;
-}
-
-/*
-.verb-index {
-  float:left;
-  position: fixed;
-}
-
-.verb-index a {
-  color:white;
-}
-*/
-
-
-
-
-a.back {
-  color: white;
-  margin: auto;
-  border: 1px solid white;
-  border-radius: 15px;
-  padding: 10px;
 }
