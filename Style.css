@@ -17,6 +17,13 @@ h2 {
   padding: 40px 0px 10px 100px;
 }
 
+h3 {
+  font-family: "Gill Sans";
+  font-size: 12px;
+  color: white;
+  padding-top: 2%;
+}
+
 h4 {
   font-family: "Gill Sans";
   font-size: 24px;
@@ -35,7 +42,8 @@ h6 {
   font-family: "Gill Sans";
   font-size: 12px;
   color: white;
-  padding-top: 2%;
+  text-align: right;
+  padding: 2% 15% 0 30%;
 }
 
 p {
